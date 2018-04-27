@@ -2,14 +2,23 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Site</title>
-  <link rel="stylesheet" href="styles.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Tajawal" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" type="text/css">
   </head>
   <body>
+    <div id="hamburger">☰</div>
     <header>
-      <div id="header-logo"></div>
-      <div id="header-name"><h1>Amy Winne</h1><br><h3>Front End Ninja</h3></div>
+      <div id="header-logo">🖰</div>
+      <div id="header-name"><h1>Amy Winne</h1><h3>Front End Ninja</h3></div>
     </header>
+    <nav>
+      <ul id="main-nav">
+        <a href="#"><li>Featured Work</li></a>
+        <a href="#"><li>Social Media</li></a>
+      </ul>
+    </nav>
     <hr>
     <img id="hero-img" src="images/section-hero.png">
     <!-- image from unsplash.com, taken by Goran Ivos https://unsplash.com/@goran_ivos -->
@@ -18,25 +27,39 @@
       <!-- Project 1 -->
       <article>
       	<figure>
-          <img src="https://loremflickr.com/400/200" alt="Project 1">
+          <img src="https://loremflickr.com/400/200/uk" alt="Project 1">
           <figcaption>Appify<br><a href="#">http://www.placeholder.com</a></figcaption>
         </figure>
       </article>
       <!-- Project 2 -->
       <article>
       	<figure>
-          <img src="https://loremflickr.com/401/200" alt="Project 2">
+          <img src="https://loremflickr.com/400/200/japan" alt="Project 2">
           <figcaption>Sunflower<br><a href="#">http://www.placeholder.com</a></figcaption>
         </figure>
       </article>
       <!-- Project 3 -->
       <article>
       	<figure>
-          <img src="https://loremflickr.com/399/200" alt="Project 3">
+          <img src="https://loremflickr.com/400/200/code" alt="Project 3">
           <figcaption>Bokeh<br><a href="#">http://www.placeholder.com</a></figcaption>
         </figure>
       </article>
     </section>
-    <footer></footer>
+    <hr>
+    <footer>
+      <div id="footer-social">
+        <a href="#" target="_blank"><img src="images/github.svg" alt="github logo"></a>
+        <a href="#" target="_blank"><img src="images/instagram.svg" alt="instagram logo"></a>
+        <a href="#" target="_blank"><img src="images/linkedin.svg" alt="linkedin logo"></a>
+
+      </div>
+      <div><a href="http://www.entypo.com" target="_blank">Entypo pictograms by Daniel Bruce</a></div>
+    </footer>
+    <script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script type="text/javascript" src="scripts.js"></script>
   </body>
 </html>
