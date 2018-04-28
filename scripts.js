@@ -1,5 +1,8 @@
 $(document).ready(function(){
-	//alert('ready!');
+	$('#hamburger').click(function(){
+		$('.main-nav').toggleClass('nav-open');
+
+	});
 
 
 

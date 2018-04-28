@@ -7,22 +7,24 @@
     <link href="https://fonts.googleapis.com/css?family=Tajawal" rel="stylesheet">
     <link rel="stylesheet" href="styles.css" type="text/css">
   </head>
-  <body>
-    <div id="hamburger">☰</div>
+    <body>
+      <div id="hamburger">☰</div>
     <header>
       <div id="header-logo">🖰</div>
       <div id="header-name"><h1>Amy Winne</h1><h3>Front End Ninja</h3></div>
     </header>
     <nav>
-      <ul id="main-nav">
-        <a href="#"><li>Featured Work</li></a>
-        <a href="#"><li>Social Media</li></a>
+      <ul class="main-nav">
+        <a href="#featured"><li>Featured Work</li></a>
+        <a href="#social"><li>Social Media</li></a>
       </ul>
     </nav>
-    <hr>
-    <img id="hero-img" src="images/section-hero.png">
+    <hr id="hr1">
+    <section id="hero">
+      <img id="hero-img" src="images/section-hero.jpg">
     <!-- image from unsplash.com, taken by Goran Ivos https://unsplash.com/@goran_ivos -->
-    <section>
+    </section>
+    <section id="featured">
       <h2>Featured Work</h2>
       <!-- Project 1 -->
       <article>
@@ -47,14 +49,15 @@
       </article>
     </section>
     <hr>
-    <footer>
+    <footer id="social">
       <div id="footer-social">
         <a href="#" target="_blank"><img src="images/github.svg" alt="github logo"></a>
         <a href="#" target="_blank"><img src="images/instagram.svg" alt="instagram logo"></a>
         <a href="#" target="_blank"><img src="images/linkedin.svg" alt="linkedin logo"></a>
-
       </div>
-      <div><a href="http://www.entypo.com" target="_blank">Entypo pictograms by Daniel Bruce</a></div>
+      <br>
+      <br>
+      <div id="credits"><a href="http://www.entypo.com" target="_blank">Entypo pictograms by Daniel Bruce</a></div>
     </footer>
     <script
   src="http://code.jquery.com/jquery-3.3.1.min.js"
