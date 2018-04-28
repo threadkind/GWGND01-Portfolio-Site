@@ -26,7 +26,8 @@ hr {
 }
 /* Hamburger Menu */
 #hamburger {
-	font-size: 30px;
+	padding: 0 5%;
+	font-size: 40px;
 	text-align: right;
 	color: var(--blue);
 	cursor: pointer;
@@ -39,12 +40,16 @@ header {
 	width: 100%;
 }
 #header-logo {
-	padding: 2.5% 2% 2%;
-	font-size: 48px;
-	color: var(--blue);
+	width: 150px;
+}
+#header-logo img {
+	padding: 0 20%;
+	width: 100px;
+	height: 100px;
+	fill: var(--blue);
 }
 #header-name {
-	padding: 2%;
+	padding: 0 5%;
 	line-height: 1.2em;
 	text-transform: uppercase;
 	width: 75%;
@@ -87,11 +92,7 @@ header {
 
 
 /* Hero Image*/
-/*#hero {
-	width: 100%;
-	display: flex;
-	justify-content: center;
-}*/
+
 #hero-img {
 	display: block;
 	width: 100%;
