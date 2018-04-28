@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,58 +11,73 @@
       <div id="hamburger">☰</div>
     <header>
       <div id="header-logo"><img src="images/keyboard.svg" alt="keyboard logo"></div>
-      <div id="header-name"><h1>Amy Winne</h1><h3>Front End Ninja</h3></div>
+      <div id="header-name">
+        <h1>Amy Winne</h1>
+        <h3>Front End Ninja</h3>
+      </div>
     </header>
     <nav>
       <ul class="main-nav">
-        <a href="#featured"><li>Featured Work</li></a>
-        <a href="#social"><li>Social Media</li></a>
+        <li><a href="#featured">Featured Work</a></li>
+        <li><a href="#social">Social Media</a></li>
       </ul>
     </nav>
     <hr id="hr1">
-    <section id="hero">
-      <img id="hero-img" src="images/section-hero.jpg">
+    <div id="hero">
+      <img id="hero-img" src="images/section-hero.jpg" alt="computer on a table">
     <!-- image from unsplash.com, taken by Goran Ivos https://unsplash.com/@goran_ivos -->
-    </section>
+    </div>
     <section id="featured">
       <h2>Featured Work</h2>
       <!-- Project 1 -->
       <article>
       	<figure>
-          <img src="https://loremflickr.com/400/200/uk" alt="Project 1">
-          <figcaption>Appify<br><a href="#">http://www.placeholder.com</a></figcaption>
+          <a href="http://portfolio.threadkind.com/30days30sites/04ProductSite/index.html" target="_blank">
+          <img src="images/courses-site.jpg" alt="Project 1"></a>
+          <figcaption>
+            <h4>Product Site</h4>
+            <p>A product site showcasing various courses offered by a company.</p>
+          </figcaption>
         </figure>
       </article>
       <!-- Project 2 -->
       <article>
-      	<figure>
-          <img src="https://loremflickr.com/400/200/japan" alt="Project 2">
-          <figcaption>Sunflower<br><a href="#">http://www.placeholder.com</a></figcaption>
+        <figure>
+          <a href="http://portfolio.threadkind.com/30days30sites/03TouristAttraction/index.html" target="_blank">
+            <img src="images/tourist-attraction.jpg" alt="Project 2"></a>
+           <figcaption>
+            <h4>Tourist Attraction Site</h4>
+            <p>A responsive site showing information about Mount Rushmore.</p>
+          </figcaption>
         </figure>
       </article>
       <!-- Project 3 -->
       <article>
       	<figure>
-          <img src="https://loremflickr.com/400/200/code" alt="Project 3">
-          <figcaption>Bokeh<br><a href="#">http://www.placeholder.com</a></figcaption>
+          <a href="http://portfolio.threadkind.com/30days30sites/05RestaurantMenu/index.html" target="_blank">
+            <img src="images/menu.jpg" alt="Project 3"></a>
+          <figcaption>
+            <h4>Restaurant Menu</h4>
+            <p>A mock-up of a responsive restaurant menu website.</p>
+          </figcaption>
         </figure>
       </article>
     </section>
     <hr>
     <footer id="social">
       <div id="footer-social">
-        <a href="#" target="_blank"><img src="images/github.svg" alt="github logo"></a>
-        <a href="#" target="_blank"><img src="images/instagram.svg" alt="instagram logo"></a>
-        <a href="#" target="_blank"><img src="images/linkedin.svg" alt="linkedin logo"></a>
+        <a href="https://github.com/threadkind" target="_blank"><img src="images/github.svg" alt="github logo"></a>
+        <a href="https://www.instagram.com/threadkind/" target="_blank"><img src="images/instagram.svg" alt="instagram logo"></a>
+        <a href="https://www.linkedin.com/in/amywinne/" target="_blank"><img src="images/linkedin.svg" alt="linkedin logo"></a>
       </div>
       <br>
       <br>
-      <div id="credits"><a href="http://www.entypo.com" target="_blank">Entypo pictograms by Daniel Bruce</a></div>
+      <p id="credits"><a href="http://www.entypo.com" target="_blank">Entypo pictograms by Daniel Bruce</a></p>
     </footer>
     <script
   src="http://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
-    <script type="text/javascript" src="scripts.js"></script>
+    <script src="scripts.js"></script>
   </body>
 </html>
